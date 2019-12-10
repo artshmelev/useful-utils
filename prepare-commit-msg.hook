@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BRANCH=`git branch --show-current`
+MSG=`echo $BRANCH | awk -F '-' '{printf("%s-%s: [*] %s: \n",toupper($1),$2,$3)}'`
+sed -i.bak -e "1s/^$/$MSG/" $1

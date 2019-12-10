@@ -1,0 +1,24 @@
+{
+    "editor.wordWrapColumn": 120,
+    "telemetry.enableCrashReporter": false,
+    "workbench.enableExperiments": false,
+    "telemetry.enableTelemetry": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc-8",
+    "C_Cpp.default.includePath": [
+        "/home/ashmelev/target/src/bin/**",
+        "/home/ashmelev/target/src/include/**",
+        "/home/ashmelev/target/src/lib/**",
+        "/home/ashmelev/target/src/**",
+        "/usr/local/conan-default/include/**",
+        "/usr/local/conan-default/include/mysql/**",
+        "/home/ashmelev/build/auto/src/**"
+    ],
+    "files.insertFinalNewline": true,
+    "go.formatTool": "gofmt",
+    "go.gopath": "/home/ashmelev/go",
+    "[go]": {}
+}
